@@ -1,6 +1,6 @@
-import React from "react"
-import { motion } from "framer-motion"
-import { cn } from "@/lib/utils"
+import React from "react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 export const BackgroundBeams = React.memo(
   ({ className }: { className?: string }) => {
@@ -55,12 +55,12 @@ export const BackgroundBeams = React.memo(
       "M-51 -565C-51 -565 17 -160 481 -33C945 94 1013 499 1013 499",
       "M-44 -573C-44 -573 24 -168 488 -41C952 86 1020 491 1020 491",
       "M-37 -581C-37 -581 31 -176 495 -49C959 78 1027 483 1027 483",
-    ]
+    ];
     return (
       <div
         className={cn(
           "absolute  h-full w-full inset-0  [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center",
-          className,
+          className
         )}
       >
         <svg
@@ -91,7 +91,7 @@ export const BackgroundBeams = React.memo(
             {paths.map((path, index) => (
               <motion.linearGradient
                 id={`linearGradient-${index}`}
-                key={`gradient-${index}`}
+                key={`gradient-${path + index}`}
                 initial={{
                   x1: "0%",
                   x2: "0%",
@@ -133,8 +133,8 @@ export const BackgroundBeams = React.memo(
           </defs>
         </svg>
       </div>
-    )
-  },
-)
+    );
+  }
+);
 
-BackgroundBeams.displayName = "BackgroundBeams"
+BackgroundBeams.displayName = "BackgroundBeams";

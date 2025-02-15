@@ -1,13 +1,13 @@
 "use client";
 
 // this is a client component
-import { useEffect } from "react";
-import { renderCanvas } from "@/components/ui/canvas"
+// import { useEffect } from "react";
+// import { renderCanvas } from "@/components/ui/canvas"
 
 export function CanvasAbout() {
-  useEffect(() => {
-    renderCanvas();
-  }, []);
+  // useEffect(() => {
+  //   renderCanvas();
+  // }, []);
 
   return (
     <section id="about">

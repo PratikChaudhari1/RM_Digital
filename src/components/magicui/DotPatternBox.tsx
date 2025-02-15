@@ -2,7 +2,6 @@
 
 import DotPattern from "@/components/ui/dot-pattern-1";
 import MagicButton from "../ui/magicButton";
-import { BlurFateText } from "./BlurFateText";
 
 export function DotPatternBox() {
   return (
