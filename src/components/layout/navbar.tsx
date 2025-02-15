@@ -21,7 +21,22 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="29.5 29.5 141 141"
+              viewBox="29.5 29.5 141 141"
+              height="25"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+              data-type="shape"
+              role="img"
+              aria-label="Homepage"
+            >
+              <g>
+                <path d="M104 33.5v26.6a4 4 0 0 1-8 0V33.5a4 4 0 0 1 8 0zm-4 102.4a4 4 0 0 0-4 4v26.6a4 4 0 0 0 8 0v-26.6a4 4 0 0 0-4-4zM55.812 50.156a4 4 0 1 0-5.656 5.656l18.819 18.819c.78.781 1.805 1.172 2.828 1.172s2.048-.391 2.828-1.172a4 4 0 0 0 0-5.656L55.812 50.156zm75.212 75.212a4 4 0 1 0-5.656 5.656l18.819 18.819c.78.781 1.805 1.172 2.828 1.172s2.048-.391 2.828-1.172a4 4 0 0 0 0-5.656l-18.819-18.819zM64.1 100a4 4 0 0 0-4-4H33.5a4 4 0 0 0 0 8h26.6a4 4 0 0 0 4-4zm102.4-4h-26.6a4 4 0 0 0 0 8h26.6a4 4 0 0 0 0-8zm-97.524 29.368-18.819 18.819a4 4 0 1 0 5.656 5.656l18.819-18.819a4 4 0 1 0-5.656-5.656zm59.22-49.564a3.987 3.987 0 0 0 2.828-1.172l18.819-18.819a4 4 0 1 0-5.656-5.656l-18.819 18.819a4 4 0 0 0 2.828 6.828z"></path>
+              </g>
+            </svg>
             <h6
               className="text-xl font cursor-pointer"
               onClick={() => handleStateRefresh("/")}

@@ -21,7 +21,7 @@ export function AuroraText({
 
   return (
     <MotionComponent
-      className={cn("relative inline-flex", className)}
+      className={cn("relative inline-flex overflow-hidden h-24", className)}
       {...props}
     >
       {children}

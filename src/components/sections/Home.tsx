@@ -6,22 +6,25 @@ import RetroGridDemo from "../magicui/RetroGrid";
 const Home = () => {
   return (
     <RetroGridDemo>
-      <div className="flex flex-col justify-center text-black mt-16 px-4 md:mt-32 md:px-8 lg:mt-40 lg:px-12">
+      <div className="flex flex-col justify-center items-center text-black mt-16 px-6 md:mt-32 md:px-10 lg:mt-40 lg:px-16">
         {/* Main Heading */}
-        <div className="flex flex-col items-center justify-center gap-4 text-center">
-          <div className="flex flex-wrap justify-center items-center gap-2">
-            <BlurFateText text="Digital Strategies for the" className="text-3xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold" />
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter">
-              <AuroraText>AI Age</AuroraText>
-            </h1>
-          </div>
+        <div className="flex flex-col items-center justify-center gap-2 text-center">
+          <BlurFateText
+            text="Your Brand Deserves More Than Just Marketing—It Deserves a Strategy That Wins."
+            className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-bold max-w-4xl"
+          />
+          <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl font-extrabold tracking-tight text-gradient">
+            <AuroraText>RL Marketing Hub</AuroraText>
+          </h1>
         </div>
 
         {/* Subtext */}
-        <div className="flex flex-col items-center justify-center gap-4 text-center mt-5 md:mt-10 relative">
+        <div className="flex flex-col items-center justify-center gap-4 text-center mt-8 md:mt-12 max-w-2xl">
           <GradientText>
-            <h5 className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-xl">
-              Personalized Digital Marketing Solutions that Leverage AI
+            <h5 className="text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg font-medium leading-relaxed">
+              At RL Marketing Hub, we craft data-driven digital strategies that
+              make your brand stand out, build trust, and drive real business
+              growth.
             </h5>
           </GradientText>
         </div>
