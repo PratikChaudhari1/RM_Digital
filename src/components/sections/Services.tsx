@@ -47,7 +47,7 @@ const Services = () => {
     >
       <Text
         text="Our Services – Where Strategy Meets Success"
-        className="mb-5"
+        className="mb-5 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center sm:text-left"
       ></Text>
       <hr className="border-black mb-10" />
       <div className="flex justify-end">
