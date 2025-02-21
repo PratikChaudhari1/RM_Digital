@@ -15,7 +15,7 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">RM__DIGITAL</h3>
+              <h3 className="text-2xl font-medium">RM__DIGITAL</h3>
               <p className="text-muted-foreground">
                 Digital Strategies for the AI Age.
               </p>

@@ -29,9 +29,9 @@ function About() {
         <Text
           text={"About Us"}
           textGradient={
-            "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-bold drop-shadow-lg"
+            "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-medium drop-shadow-lg"
           }
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mt-10"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-10"
         >
           About Us
         </Text>

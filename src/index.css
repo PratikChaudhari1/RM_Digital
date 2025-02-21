@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 * {
-  font-family: "Nunito", serif;
+  font-family: "Fredoka", serif;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 ::-webkit-scrollbar {

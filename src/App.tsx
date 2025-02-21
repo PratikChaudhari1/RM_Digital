@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Footer } from "./components/layout/footer";
 import { Navbar } from "./components/layout/navbar";
 import { DotPatternBox } from "./components/magicui/DotPatternBox";

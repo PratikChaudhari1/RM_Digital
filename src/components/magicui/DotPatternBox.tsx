@@ -6,7 +6,7 @@ import MagicButton from "../ui/magicButton";
 export function DotPatternBox() {
   return (
     <div className="mx-auto mb-10 max-w-6xl px-4 md:mb-16 xl:px-0">
-      <div className="relative flex flex-col md:flex-row items-center border border-red-500 p-4 md:p-6 xl:p-10 rounded-xl overflow-hidden">
+     <div className="relative flex flex-col md:flex-row items-center border border-indigo-500 p-4 md:p-6 xl:p-10 rounded-xl overflow-hidden bg-gray-50 shadow-lg">
         {/* Dot Pattern */}
         <DotPattern width={3} height={3} />
 
@@ -20,7 +20,7 @@ export function DotPatternBox() {
         <div className="relative z-20 flex-1 text-center md:text-left">
           <div className="text-xl tracking-tighter md:text-3xl lg:text-4xl xl:text-5xl">
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
-              <h1  className="font-semibold text-2xl md:text-4xl lg:text-5xl">
+              <h1  className="font-medium text-2xl md:text-4xl lg:text-5xl">
                 I'm a paragraph.
               </h1>
               <p className="font-thin text-2xl md:text-4xl lg:text-5xl">Click here to</p>
@@ -29,7 +29,7 @@ export function DotPatternBox() {
               <p className="font-thin text-2xl md:text-4xl lg:text-5xl">add your own text and edit me.</p>
             </div>
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
-              <h1 className="font-semibold text-2xl md:text-4xl lg:text-5xl">
+              <h1 className="font-medium text-2xl md:text-4xl lg:text-5xl">
                 Let your users get to know you.
               </h1>
             </div>
@@ -48,7 +48,7 @@ export function DotPatternBox() {
             alt="Descriptive Image" 
             width={300} 
             height={300} 
-            className="w-full h-auto rounded-xl object-cover"
+            className="w-full h-auto rounded-xl object-cover opacity-100 z-50"
           />
         </div>
       </div>

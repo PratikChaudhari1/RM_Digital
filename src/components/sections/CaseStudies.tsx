@@ -38,14 +38,14 @@ const CaseStudies = () => {
     <div id="case-studies" className="container mx-auto py-24 px-4 md:px-8">
       <Text
         text="Success Stories"
-        className="text-4xl md:text-6xl font-bold text-left mb-8"
+        className="text-4xl md:text-6xl font-medium text-left mb-8"
         textGradient={
-          "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-bold drop-shadow-lg"
+          "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-medium drop-shadow-lg"
         }
       >
         Success Stories
       </Text>
-      <h2 className="text-3xl md:text-5xl font-semibold text-gray-900 mb-12 w-full md:w-[75vw]">
+      <h2 className="text-3xl md:text-5xl font-medium text-gray-900 mb-12 w-full md:w-[75vw]">
         This is your Project section introductory paragraph. Take this
         opportunity to give a brief overview of the work you do, and let users
         know what types of projects they’ll find in the showcase below. Try

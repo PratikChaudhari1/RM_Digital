@@ -16,7 +16,7 @@ const Contact = () => {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="text-6xl  font-bold text-black mb-6 text-center">
+      <h1 className="text-6xl  font-medium text-black mb-6 text-center">
         Get in Touch
       </h1>
 
