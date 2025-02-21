@@ -25,7 +25,11 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div id="testimonials" className="w-full mx-auto px-12 md:px-12 py-20">
-      <Text className="text-4xl md:text-6xl font-bold text-left mb-8" text="Testimonials" />
+      <Text
+        className="text-4xl md:text-6xl font-bold text-left mb-8"
+        text="Testimonials"
+        textGradient="bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-bold drop-shadow-lg"
+      />
 
       <div className="space-y-8">
         {testimonials.map((item, index) => (

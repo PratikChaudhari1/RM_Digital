@@ -1,6 +1,7 @@
 "use client";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { MagicCardDemo } from "../cards/MagicCard";
+import Text from "../ui/Text";
 
 function About() {
   const aboutData = [
@@ -19,16 +20,21 @@ function About() {
     },
   ];
 
-
   return (
     <div
       id="about"
       className="min-h-screen w-full px-6 sm:px-10 md:px-16 lg:px-20 py-12 md:py-20 lg:py-24 bg-background relative flex flex-col items-center text-center md:text-left antialiased"
     >
       <div className="">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mt-10">
+        <Text
+          text={"About Us"}
+          textGradient={
+            "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-bold drop-shadow-lg"
+          }
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mt-10"
+        >
           About Us
-        </h1>
+        </Text>
         <hr className="w-full mx-auto my-6 border-gray-500 pb-8" />
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light leading-relaxed">
           More Than Marketing—We Build Brands That Last.

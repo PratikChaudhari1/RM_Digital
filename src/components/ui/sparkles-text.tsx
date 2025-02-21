@@ -23,6 +23,7 @@ interface SparklesTextProps {
    * The component to be rendered as the text
    * */
   as?: ReactElement;
+  textGradient?: string;
 
   /**
    * @default ""
@@ -65,6 +66,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
   colors = { first: "#9E7AFF", second: "#FE8BBB" },
   className,
   sparklesCount = 10,
+  textGradient,
   ...props
 }) => {
   const [sparkles, setSparkles] = useState<Sparkle[]>([]);
@@ -94,7 +96,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
           } else {
             return { ...star, lifespan: star.lifespan - 0.1 };
           }
-        }),
+        })
       );
     };
 
@@ -119,7 +121,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
         {sparkles.map((sparkle) => (
           <Sparkle key={sparkle.id} {...sparkle} />
         ))}
-        <strong>{text}</strong>
+        <h2 className={textGradient}>{text}</h2>
       </span>
     </div>
   );
