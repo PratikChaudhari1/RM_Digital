@@ -4,12 +4,11 @@ interface MagicButtonProps {
   children: React.ReactNode;
 }
 
-const MagicButton = ({ children, onClick }: any, props: any) => {
+const MagicButton = ({ children, onClick }: any) => {
   return (
     <RainbowButton
       style={{ borderRadius: "16px", whiteSpace: "nowrap" }}
       onClick={onClick}
-      {...props}
     >
       {children}
     </RainbowButton>
