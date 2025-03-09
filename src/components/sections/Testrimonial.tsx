@@ -12,7 +12,7 @@ const testimonials = [
     position: "Marketing Director",
     company: "FKS",
     testimonial:
-      "R—M Digital’s AI insights transformed our digital strategy, delivering outstanding results.",
+      "RL Digital’s AI insights transformed our digital strategy, delivering outstanding results.",
   },
   {
     name: "Sarah Lee",

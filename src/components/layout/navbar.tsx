@@ -37,7 +37,7 @@ export function Navbar() {
               </g>
             </svg>
             <h6 className="text-xl font cursor-pointer" onClick={() => handleStateRefresh("/")}>
-              R—M Digital
+              RL Digital
             </h6>
           </div>
 

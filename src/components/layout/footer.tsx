@@ -15,7 +15,7 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-medium">RM__DIGITAL</h3>
+              <h3 className="text-2xl font-medium">RL Digital</h3>
               <p className="text-muted-foreground">
                 Digital Strategies for the AI Age.
               </p>
@@ -155,7 +155,7 @@ export function Footer() {
 
           <div className="mt-16 border-t border-border pt-8">
             <p className="text-center text-sm text-muted-foreground">
-              © {new Date().getFullYear()} RM__DIGITAL. All rights reserved.
+              © {new Date().getFullYear()} RL Digital. All rights reserved.
             </p>
           </div>
         </div>
