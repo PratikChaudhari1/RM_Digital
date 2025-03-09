@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Fredoka", serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   word-spacing: 1px;
 }

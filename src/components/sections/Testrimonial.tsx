@@ -1,6 +1,13 @@
 import Text from "../ui/Text";
 const testimonials = [
   {
+    name: "John Corabi",
+    position: "CEO/Founder",
+    company: "Fame Studio",
+    testimonial:
+      "RL Marketing Hub developed a data-driven digital marketing strategy tailored to our business’s needs",
+  },
+  {
     name: "Evie Arch",
     position: "Marketing Director",
     company: "FKS",

@@ -2,6 +2,17 @@ import Text from "../ui/Text";
 
 const caseStudies = [
   {
+    company: "Fame Studio",
+    industry: "Interior Design",
+    description:
+      "Increase brand visibility, social media engagement, and lead generation",
+    metrics: {
+      social_media_growth: "40% Increase in Social Media Followers",
+      online_engagement: "50% Growth in Online Engagement",
+      client_inquiries: "30% Increase in Client Inquiries",
+    },
+  },
+  {
     company: "Urban Fitness Co",
     industry: "Health & Fitness",
     description:
@@ -46,10 +57,12 @@ const CaseStudies = () => {
         Success Stories
       </Text>
       <h2 className="text-3xl md:text-5xl font-medium text-gray-900 mb-12 w-full md:w-[75vw]">
-        This is your Project section introductory paragraph. Take this
-        opportunity to give a brief overview of the work you do, and let users
-        know what types of projects they’ll find in the showcase below. Try
-        adding an image or video to spark their interest.
+        Every big success starts with a single breakthrough. We’ve already
+        helped businesses transform their digital presence, and this is just the
+        beginning. Our latest success story showcases how the right
+        strategy—whether through SEO, website design, or high-impact Meta
+        Ads—can drive real results. As we continue to grow, so will the stories
+        of brands we help elevate. Stay tuned for more Fame Studio
       </h2>
       <hr className="border-black mb-10" />
       <div className="space-y-12">
@@ -153,7 +166,7 @@ const CaseStudies = () => {
                 </div>
 
                 {/* Right Side */}
-                <div className="mt-6 md:mt-0 md:ml-6 flex flex-col space-y-4 w-full md:w-[20vw]">
+                <div className="mt-6 md:mt-0 md:ml-6 flex flex-col space-y-4 w-full md:w-[30vw]">
                   {Object.entries(study.metrics).map(([key, value]) => (
                     <p
                       key={key}

@@ -50,8 +50,8 @@ const Services = () => {
         className="mb-5 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold sm:text-left"
       ></Text>
       <hr className="border-black mb-10" />
-      <div className="flex justify-end">
-        <div className="grid md:grid-cols-2 gap-12 w-[40vw] mr-8">
+      <div className="sm:block md:flex justify-end">
+        <div className="grid md:grid-cols-2 gap-12 md:w-[40vw] mr-8">
           {servicesData.services.map((service, index) => (
             <div key={index} className="text-black">
               <h3 className="text-2xl md:text-3xl font-semibold mb-2">
