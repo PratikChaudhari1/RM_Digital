@@ -2,10 +2,12 @@ import { AuroraText } from "../magicui/aurora-text";
 import { BlurFateText } from "../magicui/BlurFateText";
 import { GradientText } from "../magicui/gradient-text";
 import RetroGridDemo from "../magicui/RetroGrid";
+import DotPattern from "../ui/dot-pattern-1";
 
 const Home = () => {
   return (
-    <RetroGridDemo>
+    <div className="relative py-16 md:py-0">
+      <DotPattern className="text-primary/500" />
       <div className="flex flex-col justify-center items-center text-black mt-16 px-6 md:mt-32 md:px-10 lg:mt-40 lg:px-16">
         {/* Main Heading */}
         <div className="flex flex-col items-center justify-center gap-2 text-center">
@@ -19,7 +21,7 @@ const Home = () => {
         </div>
 
         {/* Subtext */}
-        <div className="flex flex-col items-center justify-center gap-4 text-center mt-8 md:mt-12 max-w-2xl">
+        <div className="flex flex-col items-center justify-center gap-4 text-center mt-8 md:mb-12 max-w-2xl">
           <GradientText>
             <h5 className="text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg font-medium leading-relaxed">
               At RL Marketing Hub, we craft data-driven digital strategies that
@@ -29,7 +31,7 @@ const Home = () => {
           </GradientText>
         </div>
       </div>
-    </RetroGridDemo>
+    </div>
   );
 };
 

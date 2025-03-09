@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -8,6 +8,19 @@ const NAV_LINKS = ["about", "services", "case-studies", "testimonials", "contact
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos]);
 
   const handleStateRefresh = useCallback((id: string) => {
     setIsMenuOpen(false);
@@ -17,7 +30,12 @@ export function Navbar() {
   }, []);
 
   return (
-    <nav className={cn("fixed top-0 z-50 w-full transition-all duration-300 bg-[#F0F1F1] backdrop-blur-md shadow-sm")}>
+    <nav 
+      className={cn(
+        "fixed top-0 z-50 w-full transition-all duration-300 bg-[#F0F1F1] backdrop-blur-md shadow-sm",
+        visible ? 'translate-y-0' : '-translate-y-full'
+      )}
+    >
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-3">

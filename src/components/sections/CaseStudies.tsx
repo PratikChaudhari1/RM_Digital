@@ -51,7 +51,7 @@ const CaseStudies = () => {
         text="Success Stories"
         className="text-4xl md:text-6xl font-medium text-left mb-8"
         textGradient={
-          "bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-medium drop-shadow-lg"
+          "bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
         }
       >
         Success Stories
@@ -73,7 +73,7 @@ const CaseStudies = () => {
                 <div className="md:flex-[0.7] flex flex-col items-center md:items-start bg-gray-100 rounded-2xl p-6 shadow-lg">
                   {/* Left Side */}
                   <div className="flex flex-col gap-8 md:gap-32 w-full">
-                    <div className="flex items-center gap-4 md:gap-7 justify-center md:justify-start">
+                    <div className="flex items-center gap-4 md:gap-7 justify-start md:justify-start">
                       <svg
                         preserveAspectRatio="none"
                         data-bbox="20 20 160 160"

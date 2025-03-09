@@ -51,14 +51,14 @@ const Services = () => {
       ></Text>
       <hr className="border-black mb-10" />
       <div className="sm:block md:flex justify-end">
-        <div className="grid md:grid-cols-2 gap-12 md:w-[40vw] mr-8">
+        <div className="grid md:grid-cols-2 gap-12 md:w-[50vw] mr-8">
           {servicesData.services.map((service, index) => (
-            <div key={index} className="text-black">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-2">
+            <div key={index} className="text[#0F0F0F ]">
+              <h3 className="text-2xl md:text-2xl font-semibold mb-2">
                 {service.title}
               </h3>
               <p className="text-gray-700 mb-4">[ 0{index + 1} ]</p>
-              <ul className="text-lg text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-900 space-y-2">
                 {service.description.map((point, idx) => (
                   <li key={idx}>{point}</li>
                 ))}

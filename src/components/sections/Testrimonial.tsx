@@ -18,14 +18,14 @@ const testimonials = [
     name: "Sarah Lee",
     position: "Founder",
     company: "Green Solutions",
-    testimonial: "R—M’s expertise is unparalleled.",
+    testimonial: "RL’s expertise is unparalleled.",
   },
   {
     name: "John Davis",
     position: "CEO",
     company: "TechWave",
     testimonial:
-      "With R—M guidance, we saw a significant boost in online engagement and conversions. Highly recommend for impactful digital marketing.",
+      "With RL guidance, we saw a significant boost in online engagement and conversions. Highly recommend for impactful digital marketing.",
   },
 ];
 
@@ -35,7 +35,7 @@ const Testimonials = () => {
       <Text
         className="text-4xl md:text-6xl font-medium text-left mb-8"
         text="Testimonials"
-        textGradient="bg-gradient-to-r from-[#c3b4ed] via-[#5b47ea] to-[#1688cf] bg-clip-text text-transparent font-medium drop-shadow-lg"
+        textGradient="bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
       />
 
       <div className="space-y-8">
