@@ -19,6 +19,16 @@ const servicesData = {
       ],
     },
     {
+      title: "Performance Marketing – Results That Matter.",
+      description: [
+        "Google Ads & Social Media Ads tailored for conversions.",
+        "Amazon Ads & Flipkart Ads to maximize e-commerce sales.",
+        "Hyper-targeted campaigns to reach your ideal audience.",
+        "Real-time tracking & optimization for maximum ROI.",
+        "Pay for performance, not just promises.",
+      ],
+    },
+    {
       title: "Email Marketing – Engage. Convert. Grow.",
       description: [
         "Personalized, high-converting email campaigns",
@@ -34,16 +44,6 @@ const servicesData = {
         "On-page & off-page optimization for sustainable rankings",
         "Local SEO to attract high-intent customers",
         "Technical SEO & speed optimization for a seamless user experience.",
-      ],
-    },
-    {
-      title: "Performance Marketing – Results That Matter.",
-      description: [
-        "Google Ads & Social Media Ads tailored for conversions.",
-        "Amazon Ads & Flipkart Ads to maximize e-commerce sales.",
-        "Hyper-targeted campaigns to reach your ideal audience.",
-        "Real-time tracking & optimization for maximum ROI.",
-        "Pay for performance, not just promises.",
       ],
     },
   ],

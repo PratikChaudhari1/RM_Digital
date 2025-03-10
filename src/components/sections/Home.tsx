@@ -20,9 +20,9 @@ const Home = () => {
         </div>
 
         {/* Subtext */}
-        <div className="flex flex-col items-center justify-center gap-4 text-center mt-8 md:mb-12 max-w-2xl">
+        <div className="flex flex-col items-start justify-start gap-4 text-center mt-24 md:mt-8 md:mb-12 max-w-2xl">
           <GradientText>
-            <h5 className="text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg font-medium leading-relaxed">
+            <h5 className="absolute left-1/2 transform -translate-x-1/2 top-[55vh] md:top-72  w-[100vw] px-4 md:w-[50vw] text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg font-medium leading-relaxed">
               At RL Marketing Hub, we craft data-driven digital strategies that
               make your brand stand out, build trust, and drive real business
               growth.
