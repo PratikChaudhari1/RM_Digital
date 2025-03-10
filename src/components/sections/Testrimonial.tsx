@@ -31,11 +31,11 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="w-full mx-auto px-12 md:px-12 py-20">
+    <div id="testimonials" className="bg-[#f5f5f5] w-full mx-auto px-12 md:px-12 py-20">
       <Text
-        className="text-4xl md:text-6xl font-medium text-left mb-8"
+        className="text-[#000] text-4xl md:text-6xl font-medium text-left mb-8"
         text="Testimonials"
-        textGradient="bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
+        // textGradient="bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
       />
 
       <div className="space-y-8">

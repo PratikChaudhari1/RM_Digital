@@ -32,7 +32,7 @@ export function Navbar() {
   return (
     <nav 
       className={cn(
-        "fixed top-0 z-50 w-full transition-all duration-300 bg-[#F0F1F1] backdrop-blur-md shadow-sm",
+        "fixed top-0 z-50 w-full transition-all duration-300 bg-[#f5f5f5] backdrop-blur-md shadow-sm",
         visible ? 'translate-y-0' : '-translate-y-full'
       )}
     >
@@ -96,7 +96,7 @@ export function Navbar() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -100, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden fixed top-16 h-screen left-0 w-full bg-[#F0F1F1] shadow-lg"
+            className="md:hidden fixed top-16 h-screen left-0 w-full bg-[#f5f5f5] shadow-lg"
           >
             <div className="flex flex-col text-center space-y-4 py-6">
               {NAV_LINKS.map((item) => (

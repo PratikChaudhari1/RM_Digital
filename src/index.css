@@ -13,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,42 +27,31 @@
 }
 @layer base {
   :root {
-    --background: 240 100% 99%; /* Light Background */
-    --foreground: 240 100% 10%; /* Dark Foreground */
-
-    --card: 240 100% 98%; /* Slightly Off-White for Cards */
-    --card-foreground: 240 100% 12%;
-
-    --popover: 240 100% 98%;
-    --popover-foreground: 240 100% 12%;
-
-    --primary: 226 82% 56%; /* Digital Dusk #0D98D6 */
-    --primary-foreground: 0 0% 100%; /* White for Text on Primary */
-
-    --secondary: 248 76% 62%; /* Tech Orchid #4F46E5 */
-    --secondary-foreground: 0 0% 100%;
-
-    --muted: 230 15% 92%; /* Soft Muted Gray */
-    --muted-foreground: 230 20% 40%; /* Medium Gray Text */
-
-    --accent: 270 75% 70%; /* Lilac Mist #A855F7 */
-    --accent-foreground: 0 0% 100%;
-
-    --destructive: 0 84.2% 60.2%; /* Keep Red for Errors */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-
-    --border: 230 15% 80%; /* Soft Border */
-    --input: 230 15% 80%; /* Matches Border */
-    --ring: 248 76% 62%; /* Tech Orchid Ring Effect */
-
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
     --radius: 0.5rem;
-
-    /* Gradient Colors */
-    --color-1: 226 82% 56%; /* Digital Dusk */
-    --color-2: 248 76% 62%; /* Tech Orchid */
-    --color-3: 270 75% 70%; /* Lilac Mist */
-    --color-4: 210 80% 50%; /* Midnight Muse */
-    --color-5: 195 85% 60%; /* Fresh Sky Blue */
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
   }
 
   .dark {
@@ -111,7 +100,20 @@
     @apply border-border;
   }
   body {
+    @apply bg-[#f5f5f5] text-[#0F172A];
     @apply bg-background text-foreground;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-[#0F172A] font-medium;
+  }
+
+  p {
+    @apply text-[#334155];
   }
 }
 

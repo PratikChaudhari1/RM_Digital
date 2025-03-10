@@ -10,7 +10,7 @@ export function Footer() {
 
   return (
     <MeteorsWrapper id="footer">
-      <footer className="pt-16 pb-8 w-full">
+      <footer className="pt-16 pb-8 w-full bg-[#f5f5f5]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Company Info */}
@@ -134,20 +134,37 @@ export function Footer() {
                 <li className="flex items-center space-x-2">
                   <MapPin className="h-5 w-5 text-primary" />
                   <span className="text-muted-foreground">
-                    29, Modi St, Borabazar Mumbai, Maharashtra 400001
+                    Shop No. 8, Park Paradise, Opp Raheja Windermare, Oshiwara
+                    400053 Mumbai, Mhada Colony, Andheri West, Mumbai,
+                    Maharashtra 400047
                   </span>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li
+                  className="flex items-center space-x-2 cursor-pointer"
+                  onClick={() =>
+                    (window.location.href = "https://wa.link/cpoki2")
+                  }
+                >
                   <Phone className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">8850104037</span>
+                  <span className="text-muted-foreground">9969367421</span>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li
+                  className="flex items-center space-x-2 cursor-pointer"
+                  onClick={() =>
+                    (window.location.href = "https://wa.link/833iq5")
+                  }
+                >
                   <Phone className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">7710860727</span>
+                  <span className="text-muted-foreground">8655038677</span>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li
+                  className="flex items-center space-x-2 cursor-pointer"
+                  onClick={() => window.open("mailto:info@rlmarketinghub.com")}
+                >
                   <Mail className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">xyz@outlook.com</span>
+                  <span className="text-muted-foreground">
+                    info@rlmarketinghub.com
+                  </span>
                 </li>
               </ul>
             </div>

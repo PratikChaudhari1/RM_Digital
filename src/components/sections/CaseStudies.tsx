@@ -46,13 +46,13 @@ const caseStudies = [
 
 const CaseStudies = () => {
   return (
-    <div id="case-studies" className="container mx-auto py-24 px-4 md:px-8">
+    <div id="case-studies" className="container mx-auto py-24 px-4 md:px-8 bg-[#f5f5f5]">
       <Text
         text="Success Stories"
-        className="text-4xl md:text-6xl font-medium text-left mb-8"
-        textGradient={
-          "bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
-        }
+        className="text-[#000] text-4xl md:text-6xl font-medium text-left mb-8"
+        // textGradient={
+        //   "bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
+        // }
       >
         Success Stories
       </Text>

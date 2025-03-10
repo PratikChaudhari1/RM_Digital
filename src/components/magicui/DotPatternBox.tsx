@@ -26,7 +26,7 @@ export function DotPatternBox() {
         <div className="relative z-20 flex-1 text-center md:text-left">
           <div className="text-xl tracking-tighter md:text-3xl lg:text-4xl xl:text-5xl">
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
-              <h1 className="font-medium text-xl md:text-4xl lg:text-3xl">
+              <h1 className="text-[#0F0F0F] font-medium text-xl md:text-4xl lg:text-3xl">
                 Struggling to grow your business online? We’ve got you covered!
               </h1>
             </div>

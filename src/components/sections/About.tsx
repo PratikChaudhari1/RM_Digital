@@ -23,15 +23,15 @@ function About() {
   return (
     <div
       id="about"
-      className="min-h-screen w-full px-6 sm:px-10 md:px-16 lg:px-20 py-12 md:py-20 lg:py-24 bg-background relative flex flex-col items-center text-center md:text-left antialiased"
+      className="min-h-screen w-full px-6 sm:px-10 md:px-16 lg:px-20 py-12 md:py-20 lg:py-24 relative flex flex-col items-center text-center md:text-left antialiased bg-[#f5f5f5]"
     >
-      <div className="">
+      <div className="bg-[#f5f5f5]">
         <Text
           text={"About Us"}
-          textGradient={
-            "bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
-          }
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-10"
+          // textGradient={
+          //   "bg-gradient-to-r from-[#0D98D6] via-[#4F46E5] to-[#A855F7] bg-clip-text text-transparent font-medium drop-shadow-lg"
+          // }
+          className="text-[#0F0F0F] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mt-10"
         >
           About Us
         </Text>
