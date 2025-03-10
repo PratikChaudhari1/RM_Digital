@@ -46,7 +46,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="./src/assets/BrandLogo.png"
+              src="./src/./assets/BrandLogo.png"
               alt="logo"
               className="h-10 w-8"
             />
