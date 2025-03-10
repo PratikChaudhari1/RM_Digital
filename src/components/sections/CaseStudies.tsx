@@ -12,36 +12,36 @@ const caseStudies = [
       client_inquiries: "30% Increase in Client Inquiries",
     },
   },
-  {
-    company: "Urban Fitness Co",
-    industry: "Health & Fitness",
-    description:
-      "Created personalized workout content using AI, leading to improved member engagement and retention.",
-    metrics: {
-      members_growth: "3.2x Members",
-      customer_lifetime_value: "82% Higher Customer Lifetime Value",
-    },
-  },
-  {
-    company: "GreenLea Cosmetics",
-    industry: "Beauty & Wellness",
-    description:
-      "Developed AI-driven customer segmentation and predictive analytics for targeted product recommendations.",
-    metrics: {
-      members_growth: "3.2x Members",
-      customer_lifetime_value: "82% Higher Customer Lifetime Value",
-    },
-  },
-  {
-    company: "GRdat",
-    industry: "SaaS Industry",
-    description:
-      "Implemented AI-powered lead scoring and personalized email campaigns, revolutionizing their B2B marketing approach.",
-    metrics: {
-      roi: "+247% ROI",
-      customer_lifetime_value: "82% Higher Customer Lifetime Value",
-    },
-  },
+  // {
+  //   company: "Urban Fitness Co",
+  //   industry: "Health & Fitness",
+  //   description:
+  //     "Created personalized workout content using AI, leading to improved member engagement and retention.",
+  //   metrics: {
+  //     members_growth: "3.2x Members",
+  //     customer_lifetime_value: "82% Higher Customer Lifetime Value",
+  //   },
+  // },
+  // {
+  //   company: "GreenLea Cosmetics",
+  //   industry: "Beauty & Wellness",
+  //   description:
+  //     "Developed AI-driven customer segmentation and predictive analytics for targeted product recommendations.",
+  //   metrics: {
+  //     members_growth: "3.2x Members",
+  //     customer_lifetime_value: "82% Higher Customer Lifetime Value",
+  //   },
+  // },
+  // {
+  //   company: "GRdat",
+  //   industry: "SaaS Industry",
+  //   description:
+  //     "Implemented AI-powered lead scoring and personalized email campaigns, revolutionizing their B2B marketing approach.",
+  //   metrics: {
+  //     roi: "+247% ROI",
+  //     customer_lifetime_value: "82% Higher Customer Lifetime Value",
+  //   },
+  // },
 ];
 
 const CaseStudies = () => {
@@ -56,7 +56,7 @@ const CaseStudies = () => {
       >
         Success Stories
       </Text>
-      <h2 className="text-3xl md:text-5xl font-medium text-gray-900 mb-12 w-full md:w-[75vw]">
+      <h2 className="text-2xl md:text-3xl font-medium text-gray-900 mb-12 w-full md:w-[75vw]">
         Every big success starts with a single breakthrough. We’ve already
         helped businesses transform their digital presence, and this is just the
         beginning. Our latest success story showcases how the right

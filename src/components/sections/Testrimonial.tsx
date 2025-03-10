@@ -1,32 +1,32 @@
 import Text from "../ui/Text";
 const testimonials = [
   {
-    name: "John Corabi",
+    name: "Umar Memon",
     position: "CEO/Founder",
     company: "Fame Studio",
     testimonial:
       "RL Marketing Hub developed a data-driven digital marketing strategy tailored to our business’s needs",
   },
-  {
-    name: "Evie Arch",
-    position: "Marketing Director",
-    company: "FKS",
-    testimonial:
-      "RL Digital’s AI insights transformed our digital strategy, delivering outstanding results.",
-  },
-  {
-    name: "Sarah Lee",
-    position: "Founder",
-    company: "Green Solutions",
-    testimonial: "RL’s expertise is unparalleled.",
-  },
-  {
-    name: "John Davis",
-    position: "CEO",
-    company: "TechWave",
-    testimonial:
-      "With RL guidance, we saw a significant boost in online engagement and conversions. Highly recommend for impactful digital marketing.",
-  },
+  // {
+  //   name: "Evie Arch",
+  //   position: "Marketing Director",
+  //   company: "FKS",
+  //   testimonial:
+  //     "RL Marketing Hub’s AI insights transformed our digital strategy, delivering outstanding results.",
+  // },
+  // {
+  //   name: "Sarah Lee",
+  //   position: "Founder",
+  //   company: "Green Solutions",
+  //   testimonial: "RL’s expertise is unparalleled.",
+  // },
+  // {
+  //   name: "John Davis",
+  //   position: "CEO",
+  //   company: "TechWave",
+  //   testimonial:
+  //     "With RL guidance, we saw a significant boost in online engagement and conversions. Highly recommend for impactful digital marketing.",
+  // },
 ];
 
 const Testimonials = () => {

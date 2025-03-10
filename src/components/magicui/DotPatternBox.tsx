@@ -32,23 +32,19 @@ export function DotPatternBox() {
             </div>
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
               <p className="font-thin text-xl md:text-4xl lg:text-3xl">
-                Our expert team specializes in:{" "}
-                <strong>
-                  SEO, Website Design & Development, Logo Design, Social Media
-                  Management, Email Marketing, and High-Converting Meta Ads.
-                </strong>
+                <h1>
+                  Our expert team specializes in: SEO, Website Design &
+                  Development, Logo Design, Social Media Management, Email
+                  Marketing, and High-Converting Meta Ads.
+                </h1>
               </p>
             </div>
-            <div className="flex flex-wrap justify-center md:justify-start gap-2">
-              <p className="font-thin text-xl md:text-4xl lg:text-3xl">
-                Let’s craft a digital strategy that drives real results for your
-                brand.
-              </p>
-            </div>
+            <div className="flex flex-wrap justify-center md:justify-start gap-2"></div>
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
               <h1 className="font-medium text-xl md:text-4xl lg:text-3xl">
-                Ready to take your business to the next level? Your business
-                deserves to stand out. Click below—let’s talk growth!
+                Let’s craft a digital strategy that drives real results for your
+                brand. Ready to take your business to the next level? Your
+                business deserves to stand out. Click below—let’s talk growth!
               </h1>
             </div>
           </div>

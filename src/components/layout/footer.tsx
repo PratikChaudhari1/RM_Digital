@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Twitter, Linkedin, Mail, MapPin, Phone, Instagram } from "lucide-react";
 import { MeteorsWrapper } from "../ui/Metors";
 
 export function Footer() {
@@ -15,28 +15,34 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-medium">RL Digital</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-medium">RL Marketing Hub</h3>
+              {/* <p className="text-muted-foreground">
                 Digital Strategies for the AI Age.
-              </p>
+              </p> */}
               <div className="flex space-x-4">
-                <a
+                {/* <a
                   href="#"
                   className="text-muted-foreground hover:text-primary"
                 >
                   <Github className="h-5 w-5" />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="#"
                   className="text-muted-foreground hover:text-primary"
                 >
                   <Twitter className="h-5 w-5" />
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="text-muted-foreground hover:text-primary"
                 >
                   <Linkedin className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="text-muted-foreground hover:text-primary"
+                >
+                  <Instagram className="h-5 w-5" />
                 </a>
               </div>
             </div>
@@ -172,7 +178,7 @@ export function Footer() {
 
           <div className="mt-16 border-t border-border pt-8">
             <p className="text-center text-sm text-muted-foreground">
-              © {new Date().getFullYear()} RL Digital. All rights reserved.
+              © {new Date().getFullYear()} RL Marketing Hub. All rights reserved.
             </p>
           </div>
         </div>

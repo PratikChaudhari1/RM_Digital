@@ -12,9 +12,9 @@ const Home = () => {
         <div className="flex flex-col items-center justify-center gap-2 text-center">
           <BlurFateText
             text="Your Brand Deserves More Than Just Marketing—It Deserves a Strategy That Wins."
-            className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-medium max-w-4xl"
+            className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-medium max-w-4xl"
           />
-          <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl font-medium tracking-tight text-gradient">
+          <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-medium tracking-tight text-gradient">
             <AuroraText>RL Marketing Hub</AuroraText>
           </h1>
         </div>
