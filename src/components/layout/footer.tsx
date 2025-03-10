@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone, Instagram } from "lucide-react";
+import {  Linkedin, Mail, MapPin, Phone, Instagram } from "lucide-react";
 import { MeteorsWrapper } from "../ui/Metors";
 
 export function Footer() {
