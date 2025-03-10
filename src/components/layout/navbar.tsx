@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "../../assets/BrandLogo.png";
 
 const NAV_LINKS = [
   "about",
@@ -45,11 +46,7 @@ export function Navbar() {
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img
-              src="../src/assets/BrandLogo.png"
-              alt="logo"
-              className="h-10 w-8"
-            />
+            <img src={Image} alt="logo" className="h-10 w-8" />
             <h6
               className="text-xl font cursor-pointer"
               onClick={() => handleStateRefresh("/")}
