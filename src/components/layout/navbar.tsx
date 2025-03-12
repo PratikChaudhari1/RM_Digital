@@ -17,12 +17,24 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [visible, setVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-
+  const [activeSection, setActiveSection] = useState("");
+  
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
+
+      // Check which section is in view
+      NAV_LINKS.forEach((section) => {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            setActiveSection(section);
+          }
+        }
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -60,7 +72,12 @@ export function Navbar() {
             {NAV_LINKS.map((item) => (
               <h6
                 key={item}
-                className="text-foreground/80 hover:text-foreground cursor-pointer transition-all duration-300 hover:scale-105"
+                className={cn(
+                  "cursor-pointer transition-all duration-300 hover:scale-105",
+                  activeSection === item 
+                    ? "text-[#0D98D6] font-medium" 
+                    : "text-foreground/80 hover:text-foreground"
+                )}
                 onClick={() => handleStateRefresh(item)}
                 tabIndex={0}
               >
@@ -102,8 +119,13 @@ export function Navbar() {
               {NAV_LINKS.map((item) => (
                 <motion.h6
                   key={item}
+                  className={cn(
+                    "text-4xl cursor-pointer",
+                    activeSection === item 
+                      ? "text-[#0D98D6] font-medium" 
+                      : "text-foreground/80 hover:text-foreground"
+                  )}
                   onClick={() => handleStateRefresh(item)}
-                  className="text-foreground/80 text-4xl hover:text-foreground cursor-pointer"
                   whileHover={{ scale: 1.1 }}
                   tabIndex={0}
                 >
